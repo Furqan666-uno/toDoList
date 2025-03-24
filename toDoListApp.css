@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background: linear-gradient(to left, #8174A0, #441752);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-color: #FAFFC5;
+    padding: 30px 50px;
+    max-width: 550px;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #5E686D;
+}
+input {
+    padding: 10px 0px;
+    padding-right: 80px;
+    padding-left: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #A9BFA8;
+    color: #3A3960;
+    margin-bottom: 20px;
+}
+::placeholder {
+    color: #3A3960;
+}
+button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    background-color: #3A3960;
+    color: #A9BFA8;
+}
+li {
+    display: flex; 
+    list-style: none;
+    max-width: auto;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #3A3960;
+}
+.fa-xmark {
+    position: absolute; 
+    right: 39%;
+    padding: 2px;
+}
+.fa-xmark:hover {
+    border-radius: 50%;
+    background-color: #8174A0;
+}
+.fa-circle-check,.fa-circle {
+    margin-right: 5px;
+}
+.checked {
+    text-decoration: line-through;
+    color: #5E686D;
+}
